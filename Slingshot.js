@@ -8,9 +8,9 @@ class Slingshot{
             length:10
 
         }
-        this.sling1 = loadImage("Sprites/sling1.png");
-        this.sling2 = loadImage("Sprites/sling2.png");
-        this.sling3 = loadImage("Sprites/sling3.png");
+        this.sling1 = loadImage("sling1.png");
+        this.sling2 = loadImage("sling2.png");
+        this.sling3 = loadImage("sling3.png");
         this.pointB = pointB;
         this.sling = Constraint.create(options);
         World.add(world,this.sling);
